@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Space X</string>
+
+    <string name="rocket_list">Rocket List</string>
+    <string name="rocket_detail">Rocket Detail</string>
+
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="not_found_rockets">No Rockets found</string>
+    <string name="fetch_error">Error to load rockets, Please try again</string>
+    <string name="search">Search by name</string>
+    <string name="no_internet">Action not possible, Internet connection is required</string>
+    <string name="success_rate">Success rate:</string>
+    <string name="date_flight">Flight Date:</string>
+    <string name="rocket_image">Rocket image</string>
+    <string name="open_wikipedia">Open Wikipedia</string>
+    <string name="country">Country:</string>
+    <string name="navigate_back">Navigate back</string>
+    <string name="cost">Cost:</string>
+    <string name="loading">Loading…</string>
+</resources>
