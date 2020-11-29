@@ -19,14 +19,9 @@ fun ImageView.setImageUrl(imageList: List<String>?) {
     }
 }
 
-@BindingAdapter(value = ["setRateText"])
-fun TextView.setRateText(rate: Int) {
-    text = "$rate".plus("%")
-}
-
 @BindingAdapter(value = ["convertAmount"])
 fun TextView.convertAmount(amount: Int) {
-    text = amount.toDouble().toPrice()
+    text = amount.toDouble().toPrice("US$")
 }
 
 @BindingAdapter(value = ["successRateColor"])

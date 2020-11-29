@@ -26,12 +26,12 @@ val Int.getColorSuccessRate: Int
         }
     }
 
-fun Double.toPrice(): String {
+fun Double.toPrice(currency: String): String {
     val pattern = "#,###.00"
     val decimalFormat = DecimalFormat(pattern)
     decimalFormat.groupingSize = 3
 
-    return "$" + decimalFormat.format(this)
+    return "$currency  ${decimalFormat.format(this)}"
 }
 
 fun Context.inflate(@LayoutRes layoutRes: Int): View {

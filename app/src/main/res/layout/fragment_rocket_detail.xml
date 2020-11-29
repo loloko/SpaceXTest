@@ -94,7 +94,7 @@
 
             <TextView
                 android:id="@+id/tv_success_rate"
-                setRateText="@{rocket.successRate}"
+                android:text='@{String.valueOf(rocket.successRate).concat("%")}'
                 successRateColor="@{rocket.successRate}"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
